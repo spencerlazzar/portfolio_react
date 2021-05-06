@@ -25,6 +25,8 @@ const NavBar = () => {
           <SocialIcon url="https://github.com/spencerlazzar" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35}} />
           <SocialIcon url="https://www.facebook.com/spencerlazzar206/" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35}} />
           <SocialIcon url="https://twitter.com/spencelazzar" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35}} />
+          <SocialIcon url="https://www.strava.com/athletes/23391746" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35}} />
+          <SocialIcon url="https://www.instagram.com/spencerlazzar/" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35}} />
         </div>
       </div>
     </header>
