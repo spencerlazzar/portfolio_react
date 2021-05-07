@@ -8,7 +8,7 @@ const NavBar = () => {
       <div className="container mx-auto flex justify-between">
         <nav className="flex">
           <NavLink to='/' exact className="inline-flex items-center py-6 px-3 mr-4 text-white text-4xl font-bold cursive tracking-widest">
-            Spencer
+            Spencer Lazzar
           </NavLink>
           <NavLink to='/post' className="inline-flex items-center py-3 px-3 my-6 rounded text-white" activeClassName="underline">
             Blog Posts
