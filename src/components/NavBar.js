@@ -4,19 +4,19 @@ import { SocialIcon } from 'react-social-icons'
 
 const NavBar = () => {
   return (
-    <header className="bg-black-600">
+    <header className="bg-gray-900">
       <div className="container mx-auto flex justify-between">
         <nav className="flex">
-          <NavLink to='/' exact activeClassName="text-white" className="inline-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-black-800 text-4xl font-bold cursive tracking-widest">
+          <NavLink to='/' exact className="inline-flex items-center py-6 px-3 mr-4 text-white text-4xl font-bold cursive tracking-widest">
             Spencer
           </NavLink>
-          <NavLink to='/post' className="inline-flex items-center py-3 px-3 my-6 rounded text-black-200 hover: text-white-800" activeClassName="text-red-100 bg-red 700">
+          <NavLink to='/post' className="inline-flex items-center py-3 px-3 my-6 rounded text-white" activeClassName="underline">
             Blog Posts
           </NavLink>
-          <NavLink to='/project' className="inline-flex items-center py-3 px-3 my-6 rounded text-white-200 hover: text-white-800" activeClassName="text-red-100 bg-red 700">
+          <NavLink to='/project' className="inline-flex items-center py-3 px-3 my-6 rounded text-white" activeClassName="underline">
             Projects
           </NavLink>
-          <NavLink to='/about' className="inline-flex items-center py-3 px-3 my-6 rounded text-white-200 hover: text-white-800" activeClassName="text-red-100 bg-red 700">
+          <NavLink to='/about' className="inline-flex items-center py-3 px-3 my-6 rounded text-white" activeClassName="underline">
             About Me!
           </NavLink>
         </nav>
