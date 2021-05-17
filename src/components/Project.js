@@ -36,7 +36,7 @@ const Project = () => {
                 {new Date(project.data).toLocaleDateString()}
               </span>
               <span>
-                <strong className="font-bold">Company</strong>: {project.place}
+                <strong className="font-bold">Location</strong>: {project.place}
               </span>
               <span>
                 <strong className="font-bold">Type</strong>: {" "}
